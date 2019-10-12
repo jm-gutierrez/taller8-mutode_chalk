@@ -1,0 +1,107 @@
+MUTANT 1:	MM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') - '!';'`
+MUTANT 2:	MM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' - chalk.blue('over the lazy dog') + '!';'`
+MUTANT 3:	NLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('iterations', 0);'`
+MUTANT 4:	NLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('iterations', 999999);'`
+MUTANT 5:	NLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('iterations', 1000001);'`
+MUTANT 6:	NLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('iterations', 286149);'`
+MUTANT 7:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 3:	`const chalk = require('.');` > `const chalk = require();'`
+MUTANT 8:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 5:	`suite('chalk', () => {` > `suite(() => {'`
+MUTANT 9:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 5:	`suite('chalk', () => {` > `suite('chalk'uite('chalk', () => {'`
+MUTANT 10:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set(1000000);'`
+MUTANT 11:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('iterations');'`
+MUTANT 12:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue() + '!';'`
+MUTANT 13:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 15:	`bench('1 style', () => {` > `bench(() => {'`
+MUTANT 14:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 15:	`bench('1 style', () => {` > `bench('1 style'ench('1 style', () => {'`
+MUTANT 15:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 16:	`chalk.red('the fox jumps over the lazy dog');` > `chalk.red();'`
+MUTANT 16:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 19:	`bench('2 styles', () => {` > `bench(() => {'`
+MUTANT 17:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 19:	`bench('2 styles', () => {` > `bench('2 styles'ench('2 styles', () => {'`
+MUTANT 18:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 20:	`chalk.blue.bgRed('the fox jumps over the lazy dog');` > `chalk.blue.bgRed();'`
+MUTANT 19:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 23:	`bench('3 styles', () => {` > `bench(() => {'`
+MUTANT 20:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 23:	`bench('3 styles', () => {` > `bench('3 styles'ench('3 styles', () => {'`
+MUTANT 21:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 24:	`chalk.blue.bgRed.bold('the fox jumps over the lazy dog');` > `chalk.blue.bgRed.bold();'`
+MUTANT 22:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 27:	`bench('cached: 1 style', () => {` > `bench(() => {'`
+MUTANT 23:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 27:	`bench('cached: 1 style', () => {` > `bench('cached: 1 style'ench('cached: 1 style', () => {'`
+MUTANT 24:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 28:	`chalkRed('the fox jumps over the lazy dog');` > `chalkRed();'`
+MUTANT 25:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 31:	`bench('cached: 2 styles', () => {` > `bench(() => {'`
+MUTANT 26:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 31:	`bench('cached: 2 styles', () => {` > `bench('cached: 2 styles'ench('cached: 2 styles', () => {'`
+MUTANT 27:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 32:	`chalkBlueBgRed('the fox jumps over the lazy dog');` > `chalkBlueBgRed();'`
+MUTANT 28:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 35:	`bench('cached: 3 styles', () => {` > `bench(() => {'`
+MUTANT 29:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 35:	`bench('cached: 3 styles', () => {` > `bench('cached: 3 styles'ench('cached: 3 styles', () => {'`
+MUTANT 30:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 36:	`chalkBlueBgRedBold('the fox jumps over the lazy dog');` > `chalkBlueBgRedBold();'`
+MUTANT 31:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 39:	`bench('cached: 1 style with newline', () => {` > `bench(() => {'`
+MUTANT 32:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 39:	`bench('cached: 1 style with newline', () => {` > `bench('cached: 1 style with newline'ench('cached: 1 style with newline', () => {'`
+MUTANT 33:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 40:	`chalkRed('the fox jumps\nover the lazy dog');` > `chalkRed();'`
+MUTANT 34:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 43:	`bench('cached: 1 style nested intersecting', () => {` > `bench(() => {'`
+MUTANT 35:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 43:	`bench('cached: 1 style nested intersecting', () => {` > `bench('cached: 1 style nested intersecting'ench('cached: 1 style nested intersecting', () => {'`
+MUTANT 36:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 44:	`chalkRed(blueStyledString);` > `chalkRed();'`
+MUTANT 37:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 47:	`bench('cached: 1 style nested non-intersecting', () => {` > `bench(() => {'`
+MUTANT 38:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 47:	`bench('cached: 1 style nested non-intersecting', () => {` > `bench('cached: 1 style nested non-intersecting'ench('cached: 1 style nested non-intersecting', () => {'`
+MUTANT 39:	RFCAM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 48:	`chalkBgRed(blueStyledString);` > `chalkBgRed();'`
+MUTANT 40:	RFM Lines 5-50: Commented function (anonymous / assigned)
+MUTANT 41:	RFM Lines 15-17: Commented function (anonymous / assigned)
+MUTANT 42:	RFM Lines 19-21: Commented function (anonymous / assigned)
+MUTANT 43:	RFM Lines 23-25: Commented function (anonymous / assigned)
+MUTANT 44:	RFM Lines 27-29: Commented function (anonymous / assigned)
+MUTANT 45:	RFM Lines 31-33: Commented function (anonymous / assigned)
+MUTANT 46:	RFM Lines 35-37: Commented function (anonymous / assigned)
+MUTANT 47:	RFM Lines 39-41: Commented function (anonymous / assigned)
+MUTANT 48:	RFM Lines 43-45: Commented function (anonymous / assigned)
+MUTANT 49:	RFM Lines 47-49: Commented function (anonymous / assigned)
+MUTANT 50:	RLM Commented line 3:	const chalk = require('.');
+MUTANT 51:	RLM Commented line 6:	set('iterations', 1000000);
+MUTANT 52:	RLM Commented line 8:	const chalkRed = chalk.red;
+MUTANT 53:	RLM Commented line 9:	const chalkBgRed = chalk.bgRed;
+MUTANT 54:	RLM Commented line 10:	const chalkBlueBgRed = chalk.blue.bgRed;
+MUTANT 55:	RLM Commented line 11:	const chalkBlueBgRedBold = chalk.blue.bgRed.bold;
+MUTANT 56:	RLM Commented line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';
+MUTANT 57:	RLM Commented line 16:	chalk.red('the fox jumps over the lazy dog');
+MUTANT 58:	RLM Commented line 20:	chalk.blue.bgRed('the fox jumps over the lazy dog');
+MUTANT 59:	RLM Commented line 24:	chalk.blue.bgRed.bold('the fox jumps over the lazy dog');
+MUTANT 60:	RLM Commented line 28:	chalkRed('the fox jumps over the lazy dog');
+MUTANT 61:	RLM Commented line 32:	chalkBlueBgRed('the fox jumps over the lazy dog');
+MUTANT 62:	RLM Commented line 36:	chalkBlueBgRedBold('the fox jumps over the lazy dog');
+MUTANT 63:	RLM Commented line 40:	chalkRed('the fox jumps\nover the lazy dog');
+MUTANT 64:	RLM Commented line 44:	chalkRed(blueStyledString);
+MUTANT 65:	RLM Commented line 48:	chalkBgRed(blueStyledString);
+MUTANT 66:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 5:	`suite('chalk', () => {` > `suite('', () => {'`
+MUTANT 67:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 5:	`suite('chalk', () => {` > `suite('MTzas', () => {'`
+MUTANT 68:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('', 1000000);'`
+MUTANT 69:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 6:	`set('iterations', 1000000);` > `set('r4U3zSTZNN', 1000000);'`
+MUTANT 70:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = '' + chalk.blue('over the lazy dog') + '!';'`
+MUTANT 71:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = '88XAwd2GQd1Sq' + chalk.blue('over the lazy dog') + '!';'`
+MUTANT 72:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue('') + '!';'`
+MUTANT 73:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue('wvrDrTvtbGqqXHqyC') + '!';'`
+MUTANT 74:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '';'`
+MUTANT 75:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 13:	`const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';` > `const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + 'E';'`
+MUTANT 76:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 15:	`bench('1 style', () => {` > `bench('', () => {'`
+MUTANT 77:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 15:	`bench('1 style', () => {` > `bench('5ZLxaSk', () => {'`
+MUTANT 78:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 16:	`chalk.red('the fox jumps over the lazy dog');` > `chalk.red('');'`
+MUTANT 79:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 16:	`chalk.red('the fox jumps over the lazy dog');` > `chalk.red('XGy8OyDn82hivuFAHZHQ6QpcFdDNSMz');'`
+MUTANT 80:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 19:	`bench('2 styles', () => {` > `bench('', () => {'`
+MUTANT 81:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 19:	`bench('2 styles', () => {` > `bench('y9EFtEQ6', () => {'`
+MUTANT 82:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 20:	`chalk.blue.bgRed('the fox jumps over the lazy dog');` > `chalk.blue.bgRed('');'`
+MUTANT 83:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 20:	`chalk.blue.bgRed('the fox jumps over the lazy dog');` > `chalk.blue.bgRed('8C2BABOelL72SqucT9i49KphKQfVKgB');'`
+MUTANT 84:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 23:	`bench('3 styles', () => {` > `bench('', () => {'`
+MUTANT 85:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 23:	`bench('3 styles', () => {` > `bench('6FnkZwGK', () => {'`
+MUTANT 86:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 24:	`chalk.blue.bgRed.bold('the fox jumps over the lazy dog');` > `chalk.blue.bgRed.bold('');'`
+MUTANT 87:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 24:	`chalk.blue.bgRed.bold('the fox jumps over the lazy dog');` > `chalk.blue.bgRed.bold('bl9y76z45TRLoiMx04eTEkAGWKRHrlr');'`
+MUTANT 88:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 27:	`bench('cached: 1 style', () => {` > `bench('', () => {'`
+MUTANT 89:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 27:	`bench('cached: 1 style', () => {` > `bench('yoIOO9DMOXThcu7', () => {'`
+MUTANT 90:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 28:	`chalkRed('the fox jumps over the lazy dog');` > `chalkRed('');'`
+MUTANT 91:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 28:	`chalkRed('the fox jumps over the lazy dog');` > `chalkRed('Nu8k7cTzK5wgdsKdoIt42iZAGHML8qC');'`
+MUTANT 92:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 31:	`bench('cached: 2 styles', () => {` > `bench('', () => {'`
+MUTANT 93:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 31:	`bench('cached: 2 styles', () => {` > `bench('sBxHwudfugvC3xQt', () => {'`
+MUTANT 94:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 32:	`chalkBlueBgRed('the fox jumps over the lazy dog');` > `chalkBlueBgRed('');'`
+MUTANT 95:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 32:	`chalkBlueBgRed('the fox jumps over the lazy dog');` > `chalkBlueBgRed('u44LFXJ60OupkiLPZv4qrlhP7ln0Pyt');'`
+MUTANT 96:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 35:	`bench('cached: 3 styles', () => {` > `bench('', () => {'`
+MUTANT 97:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 35:	`bench('cached: 3 styles', () => {` > `bench('xG17u7r5JawpdWpq', () => {'`
+MUTANT 98:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 36:	`chalkBlueBgRedBold('the fox jumps over the lazy dog');` > `chalkBlueBgRedBold('');'`
+MUTANT 99:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 36:	`chalkBlueBgRedBold('the fox jumps over the lazy dog');` > `chalkBlueBgRedBold('r3GTrTvW0a3Nc9zphLHTulrkGIlLfFK');'`
+MUTANT 100:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 39:	`bench('cached: 1 style with newline', () => {` > `bench('', () => {'`
+MUTANT 101:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 39:	`bench('cached: 1 style with newline', () => {` > `bench('9fgn8gBCik9TE00W1m5FtUqOmWRE', () => {'`
+MUTANT 102:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 40:	`chalkRed('the fox jumps\nover the lazy dog');` > `chalkRed('the fox jumps\nover the lazy dog');'`
+MUTANT 103:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 40:	`chalkRed('the fox jumps\nover the lazy dog');` > `chalkRed('0TgZlK9nSR0Si4AM7ZNgc31bWhdzmr6');'`
+MUTANT 104:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 43:	`bench('cached: 1 style nested intersecting', () => {` > `bench('', () => {'`
+MUTANT 105:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 43:	`bench('cached: 1 style nested intersecting', () => {` > `bench('aZ1K0gvz207bd57HuFfyagNeWX8W2qoEWit', () => {'`
+MUTANT 106:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 47:	`bench('cached: 1 style nested non-intersecting', () => {` > `bench('', () => {'`
+MUTANT 107:	SLM E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js Line 47:	`bench('cached: 1 style nested non-intersecting', () => {` > `bench('uuRKGr249aTS2sCHoQKgciB11uviHbLySKeGUV8', () => {'`

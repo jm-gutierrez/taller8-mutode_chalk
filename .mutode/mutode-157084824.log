@@ -1,0 +1,118 @@
+Mutode 157084824 running
+Deleting copies...Done
+Creating a copy of your module... Done
+Loading mutators... Done
+Verifying and timing your test suite
+Took 34.82 seconds to run full test suite
+Running mutants for benchmark.js
+MUTANT 1:	MM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') +- '!';	survived 27476 ms
+MUTANT 2:	MM Line 13:	const blueStyledString = 'the fox jumps' +- chalk.blue('over the lazy dog') + '!';	survived 27057 ms
+MUTANT 3:	NLM Line 6:	set('iterations', 10000000);...	survived 27343 ms
+MUTANT 4:	NLM Line 6:	set('iterations', 1000000999999);...	survived 35231 ms
+MUTANT 5:	NLM Line 6:	set('iterations', 10000001000001);...	survived 32084 ms
+MUTANT 6:	NLM Line 6:	set('iterations', 100000036736);...	survived 33623 ms
+MUTANT 7:	RFCAM Line 3:	const chalk = require('.');();	killed 8163 ms
+MUTANT 8:	RFCAM Line 5:	suite('chalk',(() () => {	survived 30939 ms
+MUTANT 9:	RFCAM Line 5:	suite('chalk'uite('chalk', () => {	killed 6939 ms
+MUTANT 10:	RFCAM Line 6:	set('iterations', (1000000);	survived 24669 ms
+MUTANT 11:	RFCAM Line 6:	set('iterations', 1000000);');	survived 28186 ms
+MUTANT 12:	RFCAM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over() the lazy dog') + '!';	survived 26199 ms
+MUTANT 13:	RFCAM Line 15:	bench('1(() style', () => {	survived 38059 ms
+MUTANT 14:	RFCAM Line 15:	bench('1 style'ench('1 style', () => {	killed 7950 ms
+MUTANT 15:	RFCAM Line 16:	chalk.red('the fox jumps over the lazy dog');();	survived 37765 ms
+MUTANT 16:	RFCAM Line 19:	bench('2(() styles', () => {	survived 40458 ms
+MUTANT 17:	RFCAM Line 19:	bench('2 styles'ench('2 styles', () => {	killed 5986 ms
+MUTANT 18:	RFCAM Line 20:	chalk.blue.bgRed('the fox jumps over the lazy dog');();	survived 27903 ms
+MUTANT 19:	RFCAM Line 23:	bench('3(() styles', () => {	survived 26744 ms
+MUTANT 20:	RFCAM Line 23:	bench('3 styles'ench('3 styles', () => {	killed 5763 ms
+MUTANT 21:	RFCAM Line 24:	chalk.blue.bgRed.bold('the fox jumps over the lazy dog');();	survived 25871 ms
+MUTANT 22:	RFCAM Line 27:	bench('cached:(() 1 style', () => {	survived 25501 ms
+MUTANT 23:	RFCAM Line 27:	bench('cached: 1 style'ench('cached: 1 style', () => {	killed 5769 ms
+MUTANT 24:	RFCAM Line 28:	chalkRed('the fox jumps over the lazy dog');();	survived 25455 ms
+MUTANT 25:	RFCAM Line 31:	bench('cached:(() 2 styles', () => {	survived 26176 ms
+MUTANT 26:	RFCAM Line 31:	bench('cached: 2 styles'ench('cached: 2 styles', () => {	killed 5934 ms
+MUTANT 27:	RFCAM Line 32:	chalkBlueBgRed('the fox jumps over the lazy dog');();	survived 27222 ms
+MUTANT 28:	RFCAM Line 35:	bench('cached:(() 3 styles', () => {	survived 25510 ms
+MUTANT 29:	RFCAM Line 35:	bench('cached: 3 styles'ench('cached: 3 styles', () => {	killed 6010 ms
+MUTANT 30:	RFCAM Line 36:	chalkBlueBgRedBold('the fox jumps over the lazy dog');();	survived 24737 ms
+MUTANT 31:	RFCAM Line 39:	bench('cached:(() 1 style with newline', () => {	survived 25567 ms
+MUTANT 32:	RFCAM Line 39:	bench('cached: 1 style with newline'ench('cached: 1 style with newline', () => {	killed 5919 ms
+MUTANT 33:	RFCAM Line 40:	chalkRed('the fox jumps\nover the lazy dog');();	survived 26210 ms
+MUTANT 34:	RFCAM Line 43:	bench('cached:(() 1 style nested intersecting', () => {	survived 26357 ms
+MUTANT 35:	RFCAM Line 43:	bench('cached: 1 style nested intersecting'ench('cached: 1 style nested intersecting', () => {	killed 5800 ms
+MUTANT 36:	RFCAM Line 44:	chalkRed(blueStyledString);();	survived 25485 ms
+MUTANT 37:	RFCAM Line 47:	bench('cached:(() 1 style nested non-intersecting', () => {	survived 29903 ms
+MUTANT 38:	RFCAM Line 47:	bench('cached: 1 style nested non-intersecting'ench('cached: 1 style nested non-intersecting', () => {	killed 6149 ms
+MUTANT 39:	RFCAM Line 48:	chalkBgRed(blueStyledString);();	survived 27308 ms
+MUTANT 40:	RFM Lines 5-50: Commented function (anonymous / assigned)	killed 5984 ms
+MUTANT 41:	RFM Lines 15-17: Commented function (anonymous / assigned)	killed 7243 ms
+MUTANT 42:	RFM Lines 19-21: Commented function (anonymous / assigned)	killed 7404 ms
+MUTANT 43:	RFM Lines 23-25: Commented function (anonymous / assigned)	killed 5992 ms
+MUTANT 44:	RFM Lines 27-29: Commented function (anonymous / assigned)	killed 6022 ms
+MUTANT 45:	RFM Lines 31-33: Commented function (anonymous / assigned)	killed 5904 ms
+MUTANT 46:	RFM Lines 35-37: Commented function (anonymous / assigned)	killed 6129 ms
+MUTANT 47:	RFM Lines 39-41: Commented function (anonymous / assigned)	killed 6055 ms
+MUTANT 48:	RFM Lines 43-45: Commented function (anonymous / assigned)	killed 6047 ms
+MUTANT 49:	RFM Lines 47-49: Commented function (anonymous / assigned)	killed 6308 ms
+MUTANT 50:	RLM Commented line 3:	const chalk = require('.');	killed 6192 ms
+MUTANT 51:	RLM Commented line 6:	set('iterations', 1000000);	killed 6152 ms
+MUTANT 52:	RLM Commented line 8:	const chalkRed = chalk.red;	killed 5909 ms
+MUTANT 53:	RLM Commented line 9:	const chalkBgRed = chalk.bgRed;	killed 6334 ms
+MUTANT 54:	RLM Commented line 10:	const chalkBlueBgRed = chalk.blue.bgRed;	killed 5881 ms
+MUTANT 55:	RLM Commented line 11:	const chalkBlueBgRedBold = chalk.blue.bgRed.bold;	killed 5926 ms
+MUTANT 56:	RLM Commented line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';	killed 7064 ms
+MUTANT 57:	RLM Commented line 16:	chalk.red('the fox jumps over the lazy dog');	killed 7638 ms
+MUTANT 58:	RLM Commented line 20:	chalk.blue.bgRed('the fox jumps over the lazy dog');	killed 7865 ms
+MUTANT 59:	RLM Commented line 24:	chalk.blue.bgRed.bold('the fox jumps over the lazy dog');	killed 7126 ms
+MUTANT 60:	RLM Commented line 28:	chalkRed('the fox jumps over the lazy dog');	killed 6160 ms
+MUTANT 61:	RLM Commented line 32:	chalkBlueBgRed('the fox jumps over the lazy dog');	killed 5912 ms
+MUTANT 62:	RLM Commented line 36:	chalkBlueBgRedBold('the fox jumps over the lazy dog');	killed 6314 ms
+MUTANT 63:	RLM Commented line 40:	chalkRed('the fox jumps\nover the lazy dog');	killed 7030 ms
+MUTANT 64:	RLM Commented line 44:	chalkRed(blueStyledString);	killed 5974 ms
+MUTANT 65:	RLM Commented line 48:	chalkBgRed(blueStyledString);	killed 6994 ms
+MUTANT 66:	SLM Line 5:	suite('chalk',('', () => {...	survived 29991 ms
+MUTANT 67:	SLM Line 5:	suite('chalkTNt8m', () => {...	survived 29059 ms
+MUTANT 68:	SLM Line 6:	set('iterations',('', 1000000);...	survived 33569 ms
+MUTANT 69:	SLM Line 6:	set('iterationsDzRMEi26nS', 1000000);...	survived 32923 ms
+MUTANT 70:	SLM Line 13:	const blueStyledString = 'the'' fox jumps' + chalk.blue('over the lazy dog') + '!';...	killed 8149 ms
+MUTANT 71:	SLM Line 13:	const blueStyledString = 'the fox jumpsXAt6DiW0RRtFI' + chalk.blue('over the lazy dog') + '!';...	survived 29938 ms
+MUTANT 72:	SLM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over('') the lazy dog') + '!';...	survived 29189 ms
+MUTANT 73:	SLM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dogC3AWqwVZS7hDPnzAr') + '!';...	survived 29941 ms
+MUTANT 74:	SLM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';'';...	killed 7078 ms
+MUTANT 75:	SLM Line 13:	const blueStyledString = 'the fox jumps' + chalk.blue('over the lazy dog') + '!';'E';...	survived 27502 ms
+MUTANT 76:	SLM Line 15:	bench('1('', style', () => {...	survived 31089 ms
+MUTANT 77:	SLM Line 15:	bench('1 styleFWFKrVK', () => {...	survived 27845 ms
+MUTANT 78:	SLM Line 16:	chalk.red('the fox jumps over the lazy dog');('');...	survived 28837 ms
+MUTANT 79:	SLM Line 16:	chalk.red('the fox jumps over the lazy dogWnEy8hXIeHlCykrSUkHOL3wOnBMu08u');...	survived 30714 ms
+MUTANT 80:	SLM Line 19:	bench('2('', styles', () => {...	survived 27001 ms
+MUTANT 81:	SLM Line 19:	bench('2 styles6TT9x1WA', () => {...	survived 27154 ms
+MUTANT 82:	SLM Line 20:	chalk.blue.bgRed('the fox jumps over the lazy dog');('');...	survived 29439 ms
+MUTANT 83:	SLM Line 20:	chalk.blue.bgRed('the fox jumps over the lazy dog83kPNIE0L5iOvkZVtTE6g8AkXJorfan');...	survived 28707 ms
+MUTANT 84:	SLM Line 23:	bench('3('', styles', () => {...	survived 28801 ms
+MUTANT 85:	SLM Line 23:	bench('3 stylesPehH3Fe0', () => {...	survived 24195 ms
+MUTANT 86:	SLM Line 24:	chalk.blue.bgRed.bold('the fox jumps over the lazy dog');('');...	survived 25190 ms
+MUTANT 87:	SLM Line 24:	chalk.blue.bgRed.bold('the fox jumps over the lazy dogXC4ZDWqJlGVieX71PZqilUKuO1T67SJ');...	survived 24291 ms
+MUTANT 88:	SLM Line 27:	bench('cached:('', 1 style', () => {...	survived 24897 ms
+MUTANT 89:	SLM Line 27:	bench('cached: 1 styleosM1wl4OglbUtHR', () => {...	survived 25478 ms
+MUTANT 90:	SLM Line 28:	chalkRed('the fox jumps over the lazy dog');('');...	survived 25223 ms
+MUTANT 91:	SLM Line 28:	chalkRed('the fox jumps over the lazy dogFHld8O1vpugBQ0ty0LaLBMqfrAOftLQ');...	survived 26227 ms
+MUTANT 92:	SLM Line 31:	bench('cached:('', 2 styles', () => {...	survived 23829 ms
+MUTANT 93:	SLM Line 31:	bench('cached: 2 styleshKEU3UZZxhqMC6u7', () => {...	survived 23302 ms
+MUTANT 94:	SLM Line 32:	chalkBlueBgRed('the fox jumps over the lazy dog');('');...	survived 25816 ms
+MUTANT 95:	SLM Line 32:	chalkBlueBgRed('the fox jumps over the lazy doghvQtTsKPpha3cNTed27VptUOpJvOqR9');...	survived 25135 ms
+MUTANT 96:	SLM Line 35:	bench('cached:('', 3 styles', () => {...	survived 23196 ms
+MUTANT 97:	SLM Line 35:	bench('cached: 3 stylesl87vFaoRc86wTzeV', () => {...	survived 23162 ms
+MUTANT 98:	SLM Line 36:	chalkBlueBgRedBold('the fox jumps over the lazy dog');('');...	survived 25057 ms
+MUTANT 99:	SLM Line 36:	chalkBlueBgRedBold('the fox jumps over the lazy dog95yuA1ueUFdHREy5S8UUMeDwmByXTlk');...	survived 23619 ms
+MUTANT 100:	SLM Line 39:	bench('cached:('', 1 style with newline', () => {...	survived 23101 ms
+MUTANT 101:	SLM Line 39:	bench('cached: 1 style with newlineI1schpbIJbbFC1AH1BSyLJ6coTGB', () => {...	survived 23804 ms
+MUTANT 102:	SLM Line 40:	chalkRed('the fox jumps\nover the lazy dog');...	survived 25400 ms
+MUTANT 103:	SLM Line 40:	chalkRed('the fox jumps\nover the lazy doglpcA0x715uAT7WeQKQFr567x3swOkTR');...	survived 23351 ms
+MUTANT 104:	SLM Line 43:	bench('cached:('', 1 style nested intersecting', () => {...	survived 22969 ms
+MUTANT 105:	SLM Line 43:	bench('cached: 1 style nested intersecting2zuXskuSEphggoF9ml8ofkyW6gDMzQ1z4Hh', () => {...	survived 23460 ms
+MUTANT 106:	SLM Line 47:	bench('cached:('', 1 style nested non-intersecting', () => {...	survived 23216 ms
+MUTANT 107:	SLM Line 47:	bench('cached: 1 style nested non-intersecting170H7z4gQExX3hQ9xGruBGnsDNWRxIizc01Go0s', () => {...	survived 23247 ms
+
+Running mutants for code-of-conduct.md
+Couldn't parse AST for file code-of-conduct.md
+Deleting copies...Done

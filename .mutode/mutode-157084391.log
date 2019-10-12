@@ -1,0 +1,7 @@
+Mutode 157084391 running
+Creating a copy of your module... Done
+Loading mutators... Done
+Verifying and timing your test suite
+Took 25.29 seconds to run full test suite
+Creating 3 extra copies of your module... 1.. 2.. 3.. Done
+Running mutants for E:/Maestría MISO/201920/Pruebas automatizadas/Taller 8 - MutationTesting/taller8-mutode/chalk/benchmark.js
